@@ -85,6 +85,7 @@ if uploaded_file:
     file_type = uploaded_file.name.split(".")[-1].lower()
     if file_type == "csv":
         file_context, data = process_csv(uploaded_file)
+        st.dataframe(data)
     elif file_type == "pdf":
         file_context = process_pdf(uploaded_file)
         data = None
