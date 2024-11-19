@@ -1,0 +1,10 @@
+streamlit
+
+langchain
+langchain_core
+pandas
+PyPDF2
+PIL
+easyocr
+numpy
+matplotlib.pyplot
